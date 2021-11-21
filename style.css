@@ -273,23 +273,26 @@ footer{
 /*início terceira fase geralt*/
 
 .geralt-fase-3{
-    margin-top: 70px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
     border:black solid 2px;
     padding: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
     box-shadow: 5px 5px 10px black;  
+    margin-left: 20%;
+    margin-right: 20%;
+    
 }
 
-.img-fase-3-geralt{
-    display: flex;
-    justify-content: center;
-}
+
 
 .img-fase-3-geralt img{
-    height: 250px;
-    width: 500px;
-    margin-right:20px ;
+
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+
 }
 
 .texto-fase-3-geralt{
@@ -303,6 +306,9 @@ footer{
     margin-top: 20px;
     line-height: 2em;
     list-style: none;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
+    text-shadow:black 5px 5px 10px ;
 }
 
 .play-fase-3-geralt{
