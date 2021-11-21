@@ -177,7 +177,7 @@ footer{
 /*Início Primeira fase Geralt*/
 
 .geralt-fase-1{
-    
+
     border:black solid 2px;
     padding: 20px;
     margin-left: 25%;
@@ -207,6 +207,11 @@ footer{
     margin-top: 20px;
     line-height: 2em;
     list-style: none;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
+    text-shadow:black 5px 5px 10px ;
+
+
 }
 
 .play-fase-1-geralt{
@@ -227,7 +232,6 @@ footer{
 /*início fase 2 geralt*/
 
 .geralt-fase-2{
-    margin-top: 70px;
     border:black solid 2px;
     padding: 20px;
     margin-left: 25%;
@@ -241,15 +245,14 @@ footer{
 }
 
 .img-fase-2-geralt img{
-    height: 350px;
-    width: 500px;
-    margin-right:20px ;
+    height: 300px;
+    width: 100%;
 }
 
 .texto-fase-2-geralt {
     font-size: 18px;
     text-align: justify;
-    line-height: 2em;
+    line-height: 1.5em;
     font-family: 'MedievalSharp', cursive;
 }
 
