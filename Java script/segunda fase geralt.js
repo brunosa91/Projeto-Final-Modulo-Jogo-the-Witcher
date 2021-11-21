@@ -1,7 +1,7 @@
 function segundaFase (){
     var cont = 0
     var tent = 1
-    while(cont <= 3 ){
+    while(cont < 3 ){
 
         var question = (prompt ("Responda exatamente o número, ex: 404"))
     
@@ -27,7 +27,7 @@ function segundaFase (){
             {
 
             alert("game over")
-            break;
+            /*break;*/
             
             }
 

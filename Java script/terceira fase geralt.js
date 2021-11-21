@@ -10,7 +10,7 @@ function terceiraFase (){
        
     }else if (question == 2){
         
-         window.location.href = "Final-Geral.html"
+         window.location.href = "Final-Geralt.html"
         
     }else{
         
