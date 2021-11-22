@@ -104,74 +104,6 @@ footer{
     
 }
 
-/* Início css fase-geralt.html*/
-    
-.header-jogo{
-    width: 100%;
-    height: 10%
-    }
-.main-jogo{
-    height:80%;
-    width: 100%
-    
-}
-.geralt-intro {
-    
-    align-items: center;
-    border:black solid 2px;
-    padding: 20px;
-    box-shadow: 5px 5px 10px black;
-    height:80%;
-    width: 60%;
-    margin: 0 auto;
-    
-}
-
-.geralt-intro img{
-    height: 300px;
-    width: 300px;
-    float: left;
-    margin-right:20px ;
-    
-}
-
-
-.geralt-intro  p{
-    font-size: 18px;
-    text-align: justify;
-    line-height: 1.5em;
-    font-family: 'MedievalSharp', cursive;
-    
-    
-}
-
-
-.box-play-intro-geralt{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-.play-intro-geralt{
-
- height: 40px;
- width: 100px;
- border-radius: 15px;
- cursor: pointer;
- background-color: burlywood;
- color: black;
- font-family: 'MedievalSharp', cursive;
- font-size: 20PX;
- box-shadow: 5px 5px 10px black;
-    
-}
-
-.footer-jogo{
-    display: flex;
-    justify-self:flex-end;  
-    width: 100%;
-    height: 10%;
-
-}
 
 
 /*Início Primeira fase Geralt*/
@@ -412,55 +344,6 @@ footer{
 /*Fase-ciri*/
 
     
-.ciri-intro {
-    
-    align-items: center;
-    border:black solid 2px;
-    padding: 20px;
-    box-shadow: 5px 5px 10px black;
-    height:80%;
-    width: 60%;
-    margin: 0 auto;
-    
-}
-
-.ciri-intro img{
-    height: 300px;
-    width: 300px;
-    float: left;
-    margin-right:20px ;
-    
-}
-
-
-.ciri-intro  p{
-    font-size: 18px;
-    text-align: justify;
-    line-height: 1.5em;
-    font-family: 'MedievalSharp', cursive;
-    
-    
-}
-
-
-.box-play-intro-ciri{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-.play-intro-ciri{
-
- height: 40px;
- width: 100px;
- border-radius: 15px;
- cursor: pointer;
- background-color: burlywood;
- color: black;
- font-family: 'MedievalSharp', cursive;
- font-size: 20PX;
- box-shadow: 5px 5px 10px black;
-    
-}
 
 
 

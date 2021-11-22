@@ -6,11 +6,11 @@ var question = (prompt ("Fase 1- Gerald observa uma chance de atacar radovid, ma
 
 if (question == 1){
    
-    window.location.href = "segunda-fase-geralt.html"
+    window.location.href = "Geralt-segunda-fase.html"
    
 }else if (question == 2){
     
-     window.location.href = "Game over fase 1-Geralt.html"
+     window.location.href = "Geralt-game over fase 1.html"
     
 }else{
     

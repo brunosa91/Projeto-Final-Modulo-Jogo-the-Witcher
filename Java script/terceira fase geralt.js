@@ -6,11 +6,11 @@ function terceiraFase (){
     
     if (question == 1){
        
-        window.location.href = "Game over fase 3-Geralt.html"
+        window.location.href = "Geralt-game over fase 3.html"
        
     }else if (question == 2){
         
-         window.location.href = "Final-Geralt.html"
+         window.location.href = "Geralt-Final.html"
         
     }else{
         

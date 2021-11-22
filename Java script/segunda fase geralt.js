@@ -8,7 +8,7 @@ function segundaFase (){
     
         if (question == 3){
        
-            window.location.href = "terceira fase geralt.html"
+            window.location.href = "Geralt-terceira-fase.html"
 
         break;
        
@@ -26,7 +26,7 @@ function segundaFase (){
         else
             {
 
-            window.location.href = "Game over fase 2-Geralt.html"
+            window.location.href = "Geralt-game over fase 2.html"
             /*break;*/
             
             }
