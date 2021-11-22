@@ -328,7 +328,7 @@ footer{
 /*final geralt*/
 
 .final-geralt{
-    margin-top: 70px;
+    height: 90%;
     border:black solid 2px;
     padding: 20px;
     margin-left: 25%;
@@ -348,18 +348,121 @@ footer{
     font-family: 'MedievalSharp', cursive;
 }
 
-
-.play-final-geralt{
-
-    height: 40px;
-    width: 200px;
+.play-final-geralt {
+    margin-top: 15px;
+}
+.play-final-geralt a{
+    justify-self:flex-end;
+    border: black solid 2px;
+    padding: 5px;
     border-radius: 15px;
     cursor: pointer;
     background-color: burlywood;
     color: black;
     font-family: 'MedievalSharp', cursive;
     font-size: 20PX;
-    box-shadow: 5px 5px 10px black;
-    margin-top: 20PX;
+    box-shadow: 5px 5px 10px black; 
+    text-decoration: none;
+}/*game over Geralt*/
+
+.gameover-geralt{
+    height: 90%;
+    border:black solid 2px;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 5px 5px 10px black;  
 }
+
+.img-fase-gameover-geralt{
+    display: flex;
+    justify-content: center;
+}
+
+.gameover-geralt h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.texto-gameover-geralt{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 2em;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.play-gameover-geralt {
+    margin-top: 15px;
+}
+.play-gameover-geralt a{
+    justify-self:flex-end;
+    border: black solid 2px;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: burlywood;
+    color: black;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20PX;
+    box-shadow: 5px 5px 10px black; 
+    text-decoration: none;
+}
+
+/*Fase-ciri*/
+
+    
+.ciri-intro {
+    
+    align-items: center;
+    border:black solid 2px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    height:80%;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.ciri-intro img{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right:20px ;
+    
+}
+
+
+.ciri-intro  p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5em;
+    font-family: 'MedievalSharp', cursive;
+    
+    
+}
+
+
+.box-play-intro-ciri{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.play-intro-ciri{
+
+ height: 40px;
+ width: 100px;
+ border-radius: 15px;
+ cursor: pointer;
+ background-color: burlywood;
+ color: black;
+ font-family: 'MedievalSharp', cursive;
+ font-size: 20PX;
+ box-shadow: 5px 5px 10px black;
+    
+}
+
+
+
+
 
