@@ -10,7 +10,7 @@ if (question == 1){
    
 }else if (question == 2){
     
-     window.location.href = "jogo the witcher.html"
+     window.location.href = "Game over fase 1-Geralt.html"
     
 }else{
     

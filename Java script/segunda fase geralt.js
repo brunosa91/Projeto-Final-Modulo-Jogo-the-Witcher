@@ -26,7 +26,7 @@ function segundaFase (){
         else
             {
 
-            alert("game over")
+            window.location.href = "Game over fase 2-Geralt.html"
             /*break;*/
             
             }
