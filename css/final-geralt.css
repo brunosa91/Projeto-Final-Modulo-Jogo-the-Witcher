@@ -28,7 +28,7 @@ body{
     width: 100%
     
 }
-.final-geralt{
+.final{
     height: 90%;
     border:black solid 2px;
     padding: 20px;
@@ -37,22 +37,22 @@ body{
     box-shadow: 5px 5px 10px black;  
 }
 
-.img-fase-final-geralt{
+.img-fase-final{
     display: flex;
     justify-content: center;
 }
 
-.texto-final-geralt{
+.texto-final{
     font-size: 18px;
     text-align: justify;
     line-height: 2em;
     font-family: 'MedievalSharp', cursive;
 }
 
-.play-final-geralt {
+.play-final {
     margin-top: 15px;
 }
-.play-final-geralt a{
+.play-final a{
     justify-self:flex-end;
     border: black solid 2px;
     padding: 5px;

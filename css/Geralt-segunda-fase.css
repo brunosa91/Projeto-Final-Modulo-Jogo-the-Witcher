@@ -28,7 +28,7 @@ body{
     width: 100%
     
 }
-.geralt-fase-2{
+.fase-2{
     border:black solid 2px;
     padding: 20px;
     margin-left: 25%;
@@ -36,24 +36,24 @@ body{
     box-shadow: 5px 5px 10px black;  
 }
 
-.img-fase-2-geralt{
+.img-fase-2{
     display: flex;
     justify-content: center;
 }
 
-.img-fase-2-geralt img{
+.img-fase-2 img{
     height: 300px;
     width: 100%;
 }
 
-.texto-fase-2-geralt {
+.texto-fase-2{
     font-size: 18px;
     text-align: justify;
     line-height: 1.5em;
     font-family: 'MedievalSharp', cursive;
 }
 
-.play-fase-2-geralt{
+.play-fase-2{
 
     height: 40px;
     width: 300px;

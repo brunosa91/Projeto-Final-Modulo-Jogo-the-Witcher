@@ -15,11 +15,20 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
+    
+
 }
 
-
-
-.ciri-intro {
+.header-jogo{
+    width: 100%;
+    height: 10%
+    }
+.main-jogo{
+    height:80%;
+    width: 100%
+    
+}
+.geralt-intro {
     
     align-items: center;
     border:black solid 2px;
@@ -30,15 +39,8 @@ body{
     margin: 0 auto;
     
 }
-.header-jogo{
-    width: 100%;
-    height: 10%
-}
-.main-jogo{
-        height:80%;
-        width: 100%
-}
-.ciri-intro img{
+
+.geralt-intro img{
     height: 300px;
     width: 300px;
     float: left;
@@ -47,7 +49,7 @@ body{
 }
 
 
-.ciri-intro  p{
+.geralt-intro  p{
     font-size: 18px;
     text-align: justify;
     line-height: 1.5em;
@@ -57,12 +59,12 @@ body{
 }
 
 
-.box-play-intro-ciri{
+.box-play-intro-geralt{
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-.play-intro-ciri{
+.play-intro-geralt{
 
  height: 40px;
  width: 100px;
@@ -75,6 +77,7 @@ body{
  box-shadow: 5px 5px 10px black;
     
 }
+
 .footer-jogo{
     display: flex;
     width: 100%;
@@ -84,3 +87,4 @@ body{
     background-color:rgb(110, 87, 56);
     color: black;
 }
+

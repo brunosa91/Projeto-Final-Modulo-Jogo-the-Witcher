@@ -30,7 +30,7 @@ body{
 }
 
 
-.geralt-fase-1{
+.fase-1{
 
     border:black solid 2px;
     padding: 20px;
@@ -39,25 +39,25 @@ body{
     box-shadow: 5px 5px 10px black;  
 }
 
-.img-fase-1-geralt{
+.img-fase-1{
     display: flex;
     justify-content: center;
 }
 
-.img-fase-1-geralt img {
+.img-fase-1 img {
     height: 200px;
     width: 200px;
     margin-right:20px ;
 }
 
-.texto-fase-1-geralt  {
+.texto-fase-1 {
     font-size: 18px;
     text-align: justify;
     line-height: 2em;
     font-family: 'MedievalSharp', cursive;
 }
 
-.alternativas-fase-1-geralt{
+.alternativas-fase-1{
     margin-top: 20px;
     line-height: 2em;
     list-style: none;
@@ -68,7 +68,7 @@ body{
 
 }
 
-.play-fase-1-geralt{
+.play-fase-1{
 
     height: 40px;
     width: 200px;

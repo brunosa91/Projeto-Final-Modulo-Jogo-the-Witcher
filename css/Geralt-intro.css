@@ -28,7 +28,7 @@ body{
     width: 100%
     
 }
-.geralt-intro {
+.intro {
     
     align-items: center;
     border:black solid 2px;
@@ -40,7 +40,7 @@ body{
     
 }
 
-.geralt-intro img{
+.intro img{
     height: 300px;
     width: 300px;
     float: left;
@@ -49,7 +49,7 @@ body{
 }
 
 
-.geralt-intro  p{
+.intro  p{
     font-size: 18px;
     text-align: justify;
     line-height: 1.5em;
@@ -59,12 +59,12 @@ body{
 }
 
 
-.box-play-intro-geralt{
+.box-play-intro{
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-.play-intro-geralt{
+.play-intro{
 
  height: 40px;
  width: 100px;

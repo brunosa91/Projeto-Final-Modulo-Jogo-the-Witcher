@@ -28,7 +28,7 @@ body{
     width: 100%
     
 }
-.geralt-fase-3{
+.fase-3{
     display: flex;
     justify-self: center;
     flex-direction: column;
@@ -42,7 +42,7 @@ body{
 
 
 
-.img-fase-3-geralt img{
+.img-fase-3 img{
 
     height: 200px;
     width: 300px;
@@ -51,14 +51,14 @@ body{
 
 }
 
-.texto-fase-3-geralt{
+.texto-fase-3{
     font-size: 18px;
     text-align: justify;
     line-height: 2em;
     font-family: 'MedievalSharp', cursive;
 }
 
-.alternativa-fase-3-geralt{
+.alternativa-fase-3{
     margin-top: 20px;
     line-height: 2em;
     list-style: none;
@@ -67,7 +67,7 @@ body{
     text-shadow:black 5px 5px 10px ;
 }
 
-.play-fase-3-geralt{
+.play-fase-3{
 
     height: 40px;
     width: 200px;
