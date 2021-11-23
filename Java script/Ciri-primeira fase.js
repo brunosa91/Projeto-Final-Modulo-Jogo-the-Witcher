@@ -1,6 +1,8 @@
 function PrimeiraFase (){
 
-var question = (prompt ("Fase 1- Gerald observa uma chance de atacar radovid, mas ciri está em perigo contra 3 soldados de rendânia. O que vc faz?defender o que tem mais de precioso tomando as decisões corretas nessa guerra.\n 1 - Ajudar a Ciri?\n 2 - Tentar capturar Radovid?"))
+var question = (prompt ("1-Sim, apoiaremos Nilfgaard.\n2-Não queremos fazer parte da sua loucura."))
+
+
 
 
 
