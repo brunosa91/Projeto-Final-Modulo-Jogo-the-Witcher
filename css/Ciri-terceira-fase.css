@@ -28,55 +28,59 @@ body{
     width: 100%
     
 }
-.intro {
-    
-    align-items: center;
+.fase-3{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
     border:black solid 2px;
     padding: 20px;
-    box-shadow: 5px 5px 10px black;
-    height:80%;
-    width: 60%;
-    margin: 0 auto;
+    box-shadow: 5px 5px 10px black;  
+    margin-left: 20%;
+    margin-right: 20%;
     
 }
 
-.intro img{
-    height: 300px;
+
+
+.img-fase-3 img{
+
+    height: 200px;
     width: 300px;
     float: left;
-    margin-right:20px ;
-    
+    margin-right: 20px;
+
 }
 
-
-.intro  p{
+.texto-fase-3{
     font-size: 18px;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 2em;
     font-family: 'MedievalSharp', cursive;
-    
-    
 }
 
-
-.box-play-intro{
+.alternativa-fase-3{
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    line-height: 2em;
+    list-style: none;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
+    text-shadow:black 5px 5px 10px ;
 }
-.play-intro{
 
- height: 40px;
- width: 100px;
- border-radius: 15px;
- cursor: pointer;
- background-color: burlywood;
- color: black;
- font-family: 'MedievalSharp', cursive;
- font-size: 20PX;
- box-shadow: 5px 5px 10px black;
-    
+.play-fase-3{
+
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: burlywood;
+    color: black;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20PX;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 20PX;
 }
+
 
 .footer-jogo{
     display: flex;

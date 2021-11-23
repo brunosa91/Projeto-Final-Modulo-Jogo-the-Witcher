@@ -28,55 +28,50 @@ body{
     width: 100%
     
 }
-.intro {
-    
-    align-items: center;
+.gameover{
+    height: 90%;
     border:black solid 2px;
     padding: 20px;
-    box-shadow: 5px 5px 10px black;
-    height:80%;
-    width: 60%;
-    margin: 0 auto;
-    
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 5px 5px 10px black;  
 }
 
-.intro img{
-    height: 300px;
-    width: 300px;
-    float: left;
-    margin-right:20px ;
-    
-}
-
-
-.intro  p{
-    font-size: 18px;
-    text-align: justify;
-    line-height: 1.5em;
-    font-family: 'MedievalSharp', cursive;
-    
-    
-}
-
-
-.box-play-intro{
-    margin-top: 20px;
+.img-fase-gameover{
     display: flex;
     justify-content: center;
 }
-.play-intro{
 
- height: 40px;
- width: 100px;
- border-radius: 15px;
- cursor: pointer;
- background-color: burlywood;
- color: black;
- font-family: 'MedievalSharp', cursive;
- font-size: 20PX;
- box-shadow: 5px 5px 10px black;
-    
+.gameover h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
 }
+
+.texto-gameover{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 2em;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.play-gameover {
+    margin-top: 15px;
+}
+.play-gameover a{
+    justify-self:flex-end;
+    border: black solid 2px;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: burlywood;
+    color: black;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20PX;
+    box-shadow: 5px 5px 10px black; 
+    text-decoration: none;
+}
+
 
 .footer-jogo{
     display: flex;
