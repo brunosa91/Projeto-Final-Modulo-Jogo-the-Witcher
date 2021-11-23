@@ -1,42 +1,22 @@
 function segundaFase (){
-    var cont = 0
-    var tent = 1
-    while(cont < 3 ){
 
-        var question = (prompt ("Responda exatamente o número, ex: 404"))
+    var question = (prompt (" 1-Atacar com catapultas à longa distância.\n 2- Avançar para um confronto na praça central de Novigrad."))
     
     
-        if (question == 3){
+    
+    if (question == 1){
        
-            window.location.href = "Ciri-terceira-fase.html"
-
-        break;
+        window.location.href = "Ciri-game over fase 2.html"
        
+    }else if (question == 2){
         
-        }
-
-        else if(tent < 3)
-            {
-            
-            alert("Resposta errada!\nNúmero errado de nilfigardianos")
-
+         window.location.href = "Ciri-terceira-fase.html"
         
-            }
-
-        else
-            {
-
-            window.location.href = "Ciri-game over fase 2.html"
-            /*break;*/
-            
-            }
-
-
-        cont ++
-        tent ++
+    }else{
+        
+        alert("digite 1 ou 2")
     }
     
-}
-
-
+    }
+    
     

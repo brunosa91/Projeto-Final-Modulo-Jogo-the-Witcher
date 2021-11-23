@@ -1,22 +1,42 @@
 function terceiraFase (){
+    var cont = 0
+    var tent = 1
+    while(cont < 3 ){
 
-    var question = (prompt (" 1 - Ajudar a Ciri?\n 2 - Ajudar Yennefer?"))
+        var question = (prompt ("Responda exatamente o número, ex: 404"))
     
     
-    
-    if (question == 1){
+        if (question == 20){
        
-        window.location.href = "Ciri-game over fase 3.html"
+            window.location.href = "Ciri-Final.html"
+
+        break;
        
-    }else if (question == 2){
         
-         window.location.href = "Ciri-Final.html"
+        }
+
+        else if(tent < 3)
+            {
+            
+            alert("Resposta errada!\n Metragem errada")
+
         
-    }else{
-        
-        alert("digite 1 ou 2")
+            }
+
+        else
+            {
+
+            window.location.href = "Ciri-game over fase 3.html"
+            /*break;*/
+            
+            }
+
+
+        cont ++
+        tent ++
     }
     
-    }
-    
+}
+
+
     
