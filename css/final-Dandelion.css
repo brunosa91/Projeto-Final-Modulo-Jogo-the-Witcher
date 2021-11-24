@@ -27,6 +27,10 @@ body{
 }
 
 .final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 90%;
     border:black solid 2px;
     padding: 20px;
@@ -36,11 +40,11 @@ body{
 }
 
 .img-fase-final{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 65%;
+
+    height: 450px;
+    width: 800px;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .texto-final{

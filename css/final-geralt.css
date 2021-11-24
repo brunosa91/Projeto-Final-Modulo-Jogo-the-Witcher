@@ -27,6 +27,10 @@ body{
 }
 
 .final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 90%;
     border:black solid 2px;
     padding: 20px;
@@ -36,10 +40,9 @@ body{
 }
 
 .img-fase-final{
-    display: flex;
-    justify-content: center;
-    object-fit: cover;
-    height: 250px;
+
+    height: 300px;
+    width: 300px;
 }
 
 .texto-final{
@@ -70,7 +73,7 @@ body{
 .footer-jogo{
     display: flex;
     width: 100%;
-    height: 10%;
+    height: 10vh;
     justify-content: center;
     align-items:center;
     background-color:rgb(110, 87, 56);

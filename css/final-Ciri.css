@@ -27,6 +27,10 @@ body{
 }
 
 .final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 90%;
     border:black solid 2px;
     padding: 20px;
@@ -36,21 +40,22 @@ body{
 }
 
 .img-fase-final{
-    display: flex;
-    justify-content: center;
-    height: 50%;
+
+    height: 300px;
+    width: 500px;
     object-fit: cover;
 }
 
+
 .texto-final{
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
     line-height: 2em;
     font-family: 'MedievalSharp', cursive;
 }
 
 .play-final {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .play-final a{
