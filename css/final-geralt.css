@@ -41,12 +41,13 @@ body{
     display: flex;
     justify-content: center;
     object-fit: cover;
+    height: 250px;
 }
 
 .texto-final{
     font-size: 18px;
     text-align: justify;
-    line-height: 2em;
+    line-height: 1.5em;
     font-family: 'MedievalSharp', cursive;
 }
 
