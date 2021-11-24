@@ -2,13 +2,12 @@
     Margin: 0;
     Padding: 0;
     Box-sizing: border-box;
-    }
-
+}
 
     @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
 body{
-    
     background-image:url(../Imagem/papelenvelhecido.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,14 +19,14 @@ body{
 .header-jogo{
     width: 100%;
     height: 10%
-    }
+}
 
 .main-jogo{
     height:80%;
     width: 100%  
 }
 
-.intro {
+.intro{
     align-items: center;
     border:black solid 2px;
     padding: 20px;

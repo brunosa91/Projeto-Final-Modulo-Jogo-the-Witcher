@@ -2,32 +2,30 @@
     Margin: 0;
     Padding: 0;
     Box-sizing: border-box;
-    }
-
+}
 
     @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
 body{
-    
     background-image:url(../Imagem/papelenvelhecido.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    
-
 }
 
 .header-jogo{
     width: 100%;
     height: 10%
-    }
+}
+
 .main-jogo{
     height:80%;
-    width: 100%
-    
+    width: 100% 
 }
+
 .final{
     height: 90%;
     border:black solid 2px;
@@ -54,6 +52,7 @@ body{
 .play-final {
     margin-top: 15px;
 }
+
 .play-final a{
     justify-self:flex-end;
     border: black solid 2px;
@@ -67,6 +66,7 @@ body{
     box-shadow: 5px 5px 10px black; 
     text-decoration: none;
 }
+
 .footer-jogo{
     display: flex;
     width: 100%;
