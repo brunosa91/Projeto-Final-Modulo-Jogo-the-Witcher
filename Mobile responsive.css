@@ -2,17 +2,369 @@
 
     body{
         height: auto;
-    }
-
-    .img-fase-final{
-        display: none;
-            
-    }
-    
-    .footer-jogo{
+        width: 100%;
         display: flex;
-        align-items: end;
-    }    
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+    }
+    /*index*/
+    .cabecalho{
+        font-size: 16px;
 
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box p{
+        font-size: 12px;
+        width: 200px;
+        line-height: 1.5em;
+    }
+    /*intro*/
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro img{
+        height: 150px;
+        width: 150px;
+        
+    }
+
+    .intro  p{
+        font-size: 15px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive; 
+    
+    }
+    /*fase 1 */
+    .img-fase-1 img {
+        height: 200px;
+        width: 200px;
+        margin-right:20px ;
+        object-fit: cover;
+        float: none;
+    }
+
+    .texto-fase-1 {
+        font-size: 18px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive;
+    }
+        /*fase 2*/
+    .img-fase-2 img {
+        height: 200px;
+        width: 200px;
+        margin-right:20px ;
+        object-fit: cover;
+        float: none;
+    }
+        
+    .texto-fase-2 {
+        font-size: 18px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive;
+    }
+        /*fase 3*/
+    .img-fase-3 img {
+        height: 200px;
+        width: 200px;
+        margin-right:20px ;
+        object-fit: cover;
+        float: none;
+    }
+
+    .texto-fase-3 {
+        font-size: 18px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive;
+    }
+
+        /*final*/
+        .img-fase-final{
+            display: flex;
+            justify-content: center;
+            height: 100px;
+            width: 100px;
+        }
+        
+        .texto-final{
+            font-size: 15px;
+            line-height: 1.5em;
+            font-family: 'MedievalSharp', cursive;
+        }
+        
+        .play-final {
+            margin-top: 15px;
+        }
+        
+        .play-final a{
+            justify-self:flex-end;
+            border: black solid 2px;
+            padding: 5px;
+            border-radius: 15px;
+            cursor: pointer;
+            background-color: burlywood;
+            color: black;
+            font-family: 'MedievalSharp', cursive;
+            font-size: 20PX;
+            box-shadow: 5px 5px 10px black; 
+            text-decoration: none;
+        }
+        
+        /*gameover*/
+        .img-fase-gameover{
+            display: none;
+        }
+        
+        .gameover h1{
+            font-size: 25px;
+            
+        }
+        
+        .texto-gameover{
+            font-size: 15px;
+            line-height: 1.5em;
+        }
+        
+
+        .play-gameover a{
+            
+            font-size: 15PX;
+            
+        }
+        
+        
 }
 
+@media (min-width:751px){
+
+    body{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+    }
+    /*index*/
+    .cabecalho{
+        font-size: 16px;
+
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box p{
+        font-size: 12px;
+        width: 200px;
+        line-height: 1.5em;
+    }
+    /*intro*/
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro img{
+        height: 150px;
+        width: 150px;
+        
+    }
+
+    .intro  p{
+        font-size: 15px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive; 
+    
+    }
+    /*fase 1 */
+    .img-fase-1 img {
+        height: 200px;
+        width: 200px;
+        margin-right:20px ;
+        object-fit: cover;
+        float: none;
+    }
+
+    .texto-fase-1 {
+        font-size: 18px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive;
+    }
+        /*fase 2*/
+    .img-fase-2 img {
+        height: 200px;
+        width: 200px;
+        margin-right:20px ;
+        object-fit: cover;
+        float: none;
+    }
+        
+    .texto-fase-2 {
+        font-size: 18px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive;
+    }
+        /*fase 3*/
+    .img-fase-3 img {
+        height: 200px;
+        width: 200px;
+        margin-right:20px ;
+        object-fit: cover;
+        float: none;
+    }
+
+    .texto-fase-3 {
+        font-size: 18px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive;
+    }
+
+        /*final*/
+        .img-fase-final{
+            display: flex;
+            justify-content: center;
+            height: 100px;
+            width: 100px;
+        }
+        
+        .texto-final{
+            font-size: 15px;
+            line-height: 1.5em;
+            font-family: 'MedievalSharp', cursive;
+        }
+        
+        .play-final {
+            margin-top: 15px;
+        }
+        
+        .play-final a{
+            justify-self:flex-end;
+            border: black solid 2px;
+            padding: 5px;
+            border-radius: 15px;
+            cursor: pointer;
+            background-color: burlywood;
+            color: black;
+            font-family: 'MedievalSharp', cursive;
+            font-size: 20PX;
+            box-shadow: 5px 5px 10px black; 
+            text-decoration: none;
+        }
+        
+        /*gameover*/
+        .img-fase-gameover{
+            display: none;
+        }
+        
+        .gameover h1{
+            font-size: 25px;
+            
+        }
+        
+        .texto-gameover{
+            font-size: 15px;
+            line-height: 1.5em;
+        }
+        
+
+        .play-gameover a{
+            
+            font-size: 15PX;
+            
+        }
+        
+        
+}
+
+
+@media (max-width:500px){
+    .img-fase-1 img {
+        height: 100px;
+        width: 100px;
+        margin-right:20px ;
+        object-fit: cover;
+        float: none;
+    }
+
+    .texto-fase-1 {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive;
+    }
+
+    .play-fase-1{
+        height: 50px;
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .img-fase-2 img {
+        height: 100px;
+        width: 100px;
+        margin-right:20px ;
+        object-fit: cover;
+        float: none;
+    }
+
+    .texto-fase-2 {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive;
+    }
+
+    .play-fase-2{
+        height: 50px;
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .img-fase-3 img {
+        height: 100px;
+        width: 100px;
+        margin-right:20px ;
+        object-fit: cover;
+        float: none;
+    }
+
+    .texto-fase-3 {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'MedievalSharp', cursive;
+    }
+
+    .play-fase-3{
+        height: 50px;
+        width: 100px;
+        font-size: 14px;
+    }
+    .texto-gameover{
+        font-size: 14px;
+        line-height: 1.5em;
+    
+    }
+    .play-gameover a{
+            
+        font-size: 10PX;
+        
+    }
+
+}
