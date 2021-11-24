@@ -42,20 +42,20 @@ body{
 
 .img-fase-1 img {
     height: 220px;
-    width: 220px;
+    width: 450px;
     margin-right:20px ;
     object-fit: cover;
+    border-radius: 10PX;
 }
 
 .texto-fase-1 {
     font-size: 18px;
     text-align: justify;
-    line-height: 2em;
+    line-height: 1.5em;
     font-family: 'MedievalSharp', cursive;
 }
 
 .alternativas-fase-1{
-    margin-top: 20px;
     line-height: 2em;
     list-style: none;
     font-family: 'MedievalSharp', cursive;
