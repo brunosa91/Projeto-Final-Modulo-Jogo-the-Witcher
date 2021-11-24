@@ -1,0 +1,18 @@
+@media (max-width:750px){
+
+    body{
+        height: auto;
+    }
+
+    .img-fase-final{
+        display: none;
+            
+    }
+    
+    .footer-jogo{
+        display: flex;
+        align-items: end;
+    }    
+
+}
+
