@@ -40,6 +40,8 @@ body{
 .img-fase-gameover{
     display: flex;
     justify-content: center;
+    height: 150px;
+    width: 150px;
 }
 
 .gameover h1{
