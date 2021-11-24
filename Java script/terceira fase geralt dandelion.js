@@ -1,16 +1,16 @@
 function terceiraFase (){
 
-    var question = (prompt (" 1 - Ajudar a Ciri?\n 2 - Ajudar Yennefer?"))
+    var question = (prompt (" 1 - Ir pela escadaria.\n 2 - Ir pelo esgoto."))
     
     
     
     if (question == 1){
        
-        window.location.href = "Geralt-game over fase 3.html"
+        window.location.href = "Dandelion-Final.html"
        
     }else if (question == 2){
         
-         window.location.href = "Geralt-Final.html"
+         window.location.href = "Dandelion-game over fase 3.html"
         
     }else{
         

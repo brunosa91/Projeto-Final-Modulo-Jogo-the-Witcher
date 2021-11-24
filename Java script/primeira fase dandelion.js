@@ -1,16 +1,16 @@
 function PrimeiraFase (){
 
-var question = (prompt ("Fase 1- Gerald observa uma chance de atacar radovid, mas ciri está em perigo contra 3 soldados de rendânia. O que vc faz?defender o que tem mais de precioso tomando as decisões corretas nessa guerra.\n 1 - Ajudar a Ciri?\n 2 - Tentar capturar Radovid?"))
+var question = (prompt (" 1 - Pega o bandolim para atacar o guarda.\n 2 - Puxa sua faca para tentar matá-lo."))
 
 
 
 if (question == 1){
    
-    window.location.href = "Geralt-segunda-fase.html"
+    window.location.href = "Dandelion-segunda-fase.html"
    
 }else if (question == 2){
     
-     window.location.href = "Geralt-game over fase 1.html"
+     window.location.href = "Dandelion-game over fase 1.html"
     
 }else{
     

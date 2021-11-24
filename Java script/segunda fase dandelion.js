@@ -3,12 +3,12 @@ function segundaFase (){
     var tent = 1
     while(cont < 3 ){
 
-        var question = (prompt ("Responda exatamente o número, ex: 404"))
+        var question = (prompt ("Responda o enigma!"))
     
     
-        if (question == 3){
+        if (question == "fogo"){
        
-            window.location.href = "Geralt-terceira-fase.html"
+            window.location.href = "Dandelion-terceira-fase.html"
 
         break;
        
@@ -18,7 +18,7 @@ function segundaFase (){
         else if(tent < 3)
             {
             
-            alert("Resposta errada!\nNúmero errado de nilfigardianos")
+            alert("Resposta errada!\n Senha incorreta")
 
         
             }
@@ -26,7 +26,7 @@ function segundaFase (){
         else
             {
 
-            window.location.href = "Geralt-game over fase 2.html"
+            window.location.href = "Dandelion-game over fase 2.html"
             /*break;*/
             
             }
