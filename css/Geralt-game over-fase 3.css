@@ -2,33 +2,32 @@
     Margin: 0;
     Padding: 0;
     Box-sizing: border-box;
-    }
+}
 
 
     @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
 body{
-    
     background-image:url(../Imagem/papelenvelhecido.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
-    margin: 0 auto;
-    
-
+    margin: 0 auto;  
 }
 
 .header-jogo{
     width: 100%;
     height: 10%
-    }
+}
+
 .main-jogo{
     height:80%;
     width: 100%
-    
 }
-.gameover-geralt{
+
+.gameover{
     height: 90%;
     border:black solid 2px;
     padding: 20px;
@@ -37,28 +36,29 @@ body{
     box-shadow: 5px 5px 10px black;  
 }
 
-.img-fase-gameover-geralt{
+.img-fase-gameover{
     display: flex;
     justify-content: center;
 }
 
-.gameover-geralt h1{
+.gameover h1{
     font-size: 25px;
     text-align: center;
     font-weight: bold;
 }
 
-.texto-gameover-geralt{
+.texto-gameover{
     font-size: 18px;
     text-align: justify;
     line-height: 2em;
     font-family: 'MedievalSharp', cursive;
 }
 
-.play-gameover-geralt {
+.play-gameover {
     margin-top: 15px;
 }
-.play-gameover-geralt a{
+
+.play-gameover a{
     justify-self:flex-end;
     border: black solid 2px;
     padding: 5px;
@@ -71,7 +71,6 @@ body{
     box-shadow: 5px 5px 10px black; 
     text-decoration: none;
 }
-
 
 .footer-jogo{
     display: flex;
