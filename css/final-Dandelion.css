@@ -36,13 +36,13 @@ body{
     padding: 20px;
     margin-left: 25%;
     margin-right: 25%;
-    box-shadow: 5px 5px 10px black;  
+    box-shadow: 5px 5px 10px black;    
 }
 
 .img-fase-final{
 
     height: 450px;
-    width: 700px;
+    width: 500px;
     object-fit: cover;
     border-radius: 20px;
 }
