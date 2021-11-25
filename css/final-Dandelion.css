@@ -26,20 +26,20 @@ body{
     width: 100% 
 }
 
-.final{
+.final-dan{
     display: flex;
+    width: 70%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90%;
     border:black solid 2px;
     padding: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0 auto;
     box-shadow: 5px 5px 10px black;    
 }
 
-.img-fase-final{
+.img-fase-final-dan{
 
     height: 450px;
     width: 500px;
