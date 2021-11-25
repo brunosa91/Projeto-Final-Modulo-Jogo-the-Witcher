@@ -2,11 +2,11 @@
     Margin: 0;
     Padding: 0;
     Box-sizing: border-box;
-    }
-
+}
 
     @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
 body{
     
     background-image:url(../Imagem/papelenvelhecido.jpg);
@@ -46,7 +46,7 @@ body{
 }
 
 .img-fase-2 img{
-    height: 240px;
+    height: 200px;
     width: 40%;
     border-radius: 20px;
     object-fit: cover;
