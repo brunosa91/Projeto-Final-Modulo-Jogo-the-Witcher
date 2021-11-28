@@ -28,7 +28,7 @@ body{
 
 .final-dan{
     display: flex;
-    width: 70%;
+    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;

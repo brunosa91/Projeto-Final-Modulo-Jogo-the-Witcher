@@ -41,8 +41,8 @@ body{
 }
 
 .img-fase-1 img {
-    height: 220px;
-    width: 450px;
+    height: 200px;
+    width: 70%;
     margin-right:20px ;
     object-fit: cover;
     border-radius: 10PX;
