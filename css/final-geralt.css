@@ -41,8 +41,9 @@ body{
 
 .img-fase-final{
 
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 70%;
+    border-radius: 10px;
 }
 
 .texto-final{

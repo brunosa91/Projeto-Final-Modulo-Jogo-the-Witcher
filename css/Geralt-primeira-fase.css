@@ -41,10 +41,11 @@ body{
 }
 
 .img-fase-1 img {
-    height: 220px;
-    width: 220px;
+    height: 300px;
+    width: 35%;
     margin-right:20px ;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .texto-fase-1 {
